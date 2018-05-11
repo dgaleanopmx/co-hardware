@@ -1,0 +1,27 @@
+.list_wide {zoom:1; width: 633px}
+.list_wide ul {border-top: 1px #ccc solid}
+.list_wide h2 {font-size:2.8em; line-height: 32px; color: #000; padding: 14px 20px 19px 18px; width: 595px; border-top: 1px #000 solid; margin: 0}
+.list_wide_item {display: inline-block;position:relative; z-index: 1}
+.list_wide a {display:block; border-bottom:1px #ccc solid; font-size: 1.6em; line-height: 22px}
+.list_wide .col1,
+.list_wide .col2,
+.list_wide .col3{display: inline-block; padding-top: 20px; padding-bottom: 20px; vertical-align: top}
+
+.list_wide .col1{width: 103px; color:#767676; white-space: nowrap; padding-left: 18px; padding-right: 20px}
+.list_wide .col2{width: 472px; color:#5a5a5a; padding-right: 20px}
+.list_wide .col3{width: 200px; _width:235px; color:#767676}
+
+.list_wide .list_wide_item_cnt{z-index: -1; position:relative; display:block }
+
+.list_wide a:hover .list_wide_item_cnt, .list_wide a:focus .list_wide_item_cnt {background:#f2f2f2;}
+.list_wide a:hover, .list_wide a:visited:hover , .list_wide:focus, .list_wide a:visited:focus {text-decoration: none !important; color:#822980}
+.list_wide a:hover .col2, .list_wide a:focus .col2 {text-decoration: underline}
+
+.list_wide_icon {width: 1000px}
+.list_wide_icon .col2 {width: 636px}
+.list_wide_icon .col3 {width: 185px; padding-right: 18px}
+.list_wide_icon .with_rgt_col .col2 {width:300px}
+.list_wide_icon .list_icon {position: absolute}
+.list_wide_icon .list_txt {padding-left:25px; display: block}
+
+.list_wide .bld {font-weight: bold}

@@ -1,0 +1,13 @@
+/* PLAY VIDEO BUTTONS*/
+.image_video_big .play{background: transparent url(../../i/patterns/i-video-play-btn-lg.png) no-repeat 0 0; width:80px; height:80px}
+.image_video_big .video-thumbnail-16x9 .play {top: 120px; left: 249px;}
+.image_video_big .video-thumbnail-4x3 .play {top: 156px; left: 225px;}
+.image_video_middle .video-thumbnail-16x9 .play {top: 46px; left: 95px;}
+.image_video_middle .video-thumbnail-4x3 .play {top: 64px; left: 91px;}
+.image_video_small .play{background: transparent url(../../i/patterns/i-video-play-btn-lt.png) no-repeat 0 0; width:21px; height:21px}
+.image_video_small .video-thumbnail-16x9 .play {top: 12px; left: 18px;}
+
+
+/*solve double margin float bag for IE6*/
+*html .image_video_small{display:inline; width:0}
+*html .image_video_middle{display:inline; width:0}

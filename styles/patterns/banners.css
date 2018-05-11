@@ -1,0 +1,12 @@
+/*banners*/
+.banner{position:relative; margin:20px 18px; zoom:1}
+.banner h1{font-size: 32px; line-height: 32px}
+.mega_banner_title{margin:23px 18px 20px 18px}
+.mega_banner_title h1{font-size: 40px; line-height: 40px; margin-bottom: 3px}
+.banner .description{font-size: 18px; line-height: 22px; margin-top:8px; color:#000}
+.banner_text_cnt {width:575px}
+.banner_buttons_cnt {position:absolute;bottom:0; *bottom:-10px}
+.banner_button1, .banner_button2, .banner_button3 {float:left}
+.banner_button1{margin-right: 10px}
+.banner_button2{margin-right: 20px}
+.banner_button4{margin-top: 40px;margin-bottom:15px;clear:left}

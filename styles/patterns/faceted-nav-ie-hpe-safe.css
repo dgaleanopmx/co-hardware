@@ -1,0 +1,29 @@
+.faceted_navigation{_overflow: hidden}
+.faceted_navigation .facet_category,
+.faceted_navigation .facet_category:link,
+.faceted_navigation .facet_category:visited{color: #fff}
+
+.faceted_navigation .filter h2 { *padding-bottom: 15px; }
+.icn_fct_clr, .icn_fct_arr, .icn_fct_cls, .arr_blu_dwn,
+.faceted_navigation .bt_clear_all,
+.facet_options_header .close_button,
+.faceted_navigation  .facet_option .checkbox{_background-image: url(../i/common/s-21px-ie6-hpe.gif) !important;}
+
+* html  .faceted_navigation .hover .checkbox{ background-position: 0 -45px}
+* html  .faceted_navigation .selected .checkbox { background-position: 0 -90px}
+* html  .faceted_navigation .facet_button {padding-bottom:0;}
+
+.faceted_navigation .facet_options_header a.facet_category { *padding-bottom:8px; *margin-bottom: -8px;}
+
+* html .faceted_navigation .facet_clear_button
+{
+    behavior: expression(
+          onmouseover = function() {this.className += ' hover'},
+          onmouseout = function() {this.className = this.className.replace('hover', '')},
+          style.behavior = null
+        );
+}
+.facet_options_header .hover{_text-decoration: underline}
+.facet_options_header .disabled{_text-decoration:none; cursor: default}
+
+.faceted_navigation .facet_selection{display: block};

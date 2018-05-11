@@ -1,0 +1,158 @@
+.steps_wrapper{
+    padding-left: 40px;
+    height: 40px;
+}
+
+.step_descriptor_blue .steps_wrapper{
+    background-color: #0196D6;
+}
+.step_descriptor .clf a, .step_descriptor .clf a:link  {
+    color: #767676;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    display: inline-block;
+    padding: 9px 0 10px;
+}
+
+.step_descriptor .clf a:hover{
+    cursor: default;
+}
+
+.step_descriptor_blue .clf a, .step_descriptor_blue .clf a:link  {
+    color: #00415D;
+}
+
+
+.step_descriptor .clf .current a,
+.step_descriptor .clf .selected a{
+    color: #000000;
+}
+
+.step_descriptor_blue .clf .current a,
+.step_descriptor_blue .clf .selected a{
+    color: #FFFFFF;
+}
+
+.step_descriptor .clf .disabled a, .tabs .clf .disabled a:hover{
+    color: #CCCCCC;
+    cursor: default;
+    text-decoration: none;
+}
+
+.step_descriptor .clf .step{
+    height: 40px;
+    border-right: none;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+}
+
+.step_descriptor .circle{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    background-image: url(../../i/common/s-21px-hpe.png);
+    _background-image: url(../../i/common/s-21px-ie6-hpe.gif);
+}
+
+
+.step_descriptor .circle_1{
+    background-position: 0px 414px;
+}
+
+.step_descriptor .circle_2{
+    background-position: 0px 373px;
+}
+
+.step_descriptor .circle_3{
+    background-position: 0px 332px;
+}
+
+.step_descriptor_blue .circle_2{
+    background-position: 0px 1604px;
+}
+
+.step_descriptor_blue .circle_3{
+    background-position: 0px 1563px;
+}
+
+
+.step_descriptor .clf .current  .circle_1,
+.step_descriptor .clf .selected  .circle_1{
+    background-position: 0px 250px;
+}
+
+.step_descriptor .clf .current  .circle_2,
+.step_descriptor .clf .selected  .circle_2{
+    background-position: 0px 209px;
+}
+
+.step_descriptor .clf .current  .circle_3,
+.step_descriptor .clf .selected  .circle_3{
+    background-position: 0px 168px;
+}
+
+
+.step_descriptor_blue .clf .current  .circle_1,
+.step_descriptor_blue .clf .selected  .circle_1{
+    background-position: 0px 1727px;
+}
+
+.step_descriptor_blue .clf .current  .circle_2,
+.step_descriptor_blue .clf .selected  .circle_2{
+    background-position: 0px 1686px;
+}
+
+.step_descriptor_blue .clf .current  .circle_3,
+.step_descriptor_blue .clf .selected  .circle_3{
+    background-position: 0px 1645px;
+}
+
+.step_descriptor .clf .current .circle span,
+.step_descriptor .clf .selected .circle span{
+    background: #0096d6;
+    color: #ffffff;
+}
+
+.step_descriptor .arrow {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 7px;
+    height: 13px;
+    display: inline-block;
+    background: url(../../i/common/s-31px-hpe.png) 0px -667px transparent no-repeat;
+    _background-image: url(../../i/common/s-31px-ie6-hpe.gif);
+    _zoom: 1;
+    _display: inline;
+    *padding-bottom: 10px;
+}
+
+.step_descriptor_blue .arrow{
+    background: url(../../i/common/s-21px-hpe.png) 0px -1375px transparent no-repeat;
+    _background-image: url(../../i/common/s-21px-ie6-hpe.gif);
+}
+
+.step_descriptor_blue .selected .arrow,
+.step_descriptor_blue .current .arrow {
+    background-position:0px -1406px;
+}
+
+
+.item_label{
+    margin-left: 7px;
+}
+
+@media \0screen {
+    .step_descriptor .arrow {
+        background-position: 0px -666px;
+        line-height: 16px;
+    }
+}
+
+.step_descriptor .prev{
+    margin-right: 15px;
+}

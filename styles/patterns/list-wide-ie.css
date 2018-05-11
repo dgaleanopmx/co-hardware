@@ -1,0 +1,15 @@
+/*.list_wide  a > span fixes*/
+.list_wide a{width:100%; background-image: url(../../i/patterns/i-has-layout-ie.gif);}
+.list_wide .col1,
+.list_wide .col2,
+.list_wide .col3{z-index: -1; position:relative;_display: inline;}
+.list_wide_item{*display: inline; }
+
+* html .list_wide a
+{
+    behavior: expression(
+          onmouseover = function() {this.className += ' hover'},
+          onmouseout = function() {this.className = this.className.replace('hover', '')},
+          style.behavior = null
+        );
+}

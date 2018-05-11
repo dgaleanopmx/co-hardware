@@ -1,0 +1,143 @@
+.overlay_trigger, .overlay_trigger:link{
+    font-size: 1.4em;
+    line-height: 18px;
+    color: #767676;
+    text-decoration: none;
+}
+
+.overlay_trigger:hover{
+    text-decoration: underline;
+}
+
+
+.overlay_popup{
+    background-color: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 0;
+}
+
+.overlay_popup h4.cnt  {
+    color: #000000;
+    font-size: 1.4em;
+    line-height: 14px;
+    font-weight: normal;
+    margin: 20px 40px 6px;
+}
+
+
+.overlay_popup h2, .eb-video-popup .eb-popup-header{
+    color: #000000;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 40px;
+}
+
+.eb-video-popup .popup-description{
+    color: #000000;
+    font-size: 1.4em;
+    line-height: 18px;
+    margin: 15px 40px;
+}
+
+.eb-video-popup .eb-popup-separator, .overlay_popup .eb-popup-separator{
+    border-top: 1px solid #CCCCCC;
+    margin: 40px 40px 18px;
+    height: 1px;
+}
+
+.eb-video-popup .popup-copyright{
+    color: #767676;
+    font-size: 1.2em;
+    line-height: 15px;
+    margin: 0 40px 35px;
+}
+
+.overlay_popup .popup_close {
+    background: url("../../i/common/s-21px-hpe.png") no-repeat scroll 5px -585px transparent;
+    _background-image: url("../../i/common/s-21px-ie6-hpe.gif");
+}
+
+.overlay_popup .popup_close:hover {
+    text-decoration: none;
+}
+
+.overlay_popup .cl_box{
+    right: 10px;
+}
+
+.eb-video-popup div.cnt20{
+    margin: 20px 40px 40px;
+}
+
+.overlay_popup .popup_cnt {
+    padding: 0 40px;
+    border-bottom: none;
+}
+
+.overlay_popup .popup_cnt h2 {
+    margin-bottom:14px;
+}
+
+.overlay_popup .popup_content h3{
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.overlay_popup .popup_content p {
+    padding-bottom: 8px;
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 18px;
+    color: #000000;
+}
+
+.overlay_popup .popup_content img {
+    margin-left: 20px;
+}
+
+.overlay_popup .popup_content h4{
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+.overlay_popup .icn_dwn {
+    padding: 0 0 0 20px;
+    margin-top: 8px;
+    font-size: 1.4em;
+    line-height: 18px;
+    color: #767676;
+    background: url("../../i/icons/lightbox-icon.gif") transparent 0 2px no-repeat;
+}
+
+.overlay_popup a.icn_dwn:hover {
+    text-decoration: none;
+}
+
+.overlay_popup a.icn_dwn:visited {
+    color: #822980;
+}
+
+.overlay_popup .img_out {
+    padding: 0 40px 40px;
+}
+
+.overlay_popup .player{
+    position: relative;
+}
+
+.eb-video-popup .eb-popup-header {
+    width: auto;
+    display: block;
+}
+
+.eb-video-popup .eb-popup-image {
+    margin: 20px 40px;
+}
+
+.eb-video-popup .eb-popup-paginator {
+    margin-bottom: 40px;
+}

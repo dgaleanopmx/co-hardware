@@ -1,0 +1,250 @@
+/* start facet filter */
+.faceted_navigation .filter h2,
+.faceted_navigation .results {display: block; float: left; position: relative; font-size: 18px; line-height: 22px; color: #000;  margin-top: 7px; margin-bottom: 15px; }
+.faceted_navigation .filter h2 { margin-bottom: 15px; }
+.faceted_navigation .results {margin: 7px 10px 15px 5px; font-family: 'HPSimplified_Lt';}
+.faceted_navigation .results_count {font-size: 32px;line-height: 30px; color:#000; display: block; float: left; position: relative; margin-left: 5px; margin-right: 10px;}
+
+/* start facet filter clear button */
+.faceted_navigation .clear_all_button a{margin-top: 13px; padding-left:20px; }
+.faceted_navigation .clear_all_button a,
+.faceted_navigation .clear_all_button a:link,
+.faceted_navigation .clear_all_button a:visited {line-height: 15px; font-size: 14px; color: #5a5a5a}
+.icn_fct_clr, .icn_fct_arr, .icn_fct_cls {background: url(../../i/common/s-21px-hpe.png) transparent no-repeat scroll left -879px; _background-image: url(../../i/common/s-21px-ie6-hpe.gif); height:15px; display:inline-block}
+.faceted_navigation .clear_all_button a.disabled {cursor: default; color:#ccc; background-position: left -914px}
+.faceted_navigation .clear_all_button a.disabled:hover {text-decoration: none}
+
+/* start facet button */
+.faceted_navigation .facet_button {background-color:#0096D6; height: 47px; padding-bottom:8px; z-index: 3}
+.faceted_navigation a.facet_category{display: block; padding: 7px 22px 0 9px; font-size: 18px; color: #fff; line-height: 22px; height: auto; margin-right: 5px;height: auto;}
+.faceted_navigation a.facet_category,
+.faceted_navigation a.facet_category:link,
+.faceted_navigation a.facet_category:visited {font-size: 18px; color: #fff; line-height: 22px; }
+.faceted_navigation a.facet_category:hover{text-decoration: none}
+.faceted_navigation .facet_options_header a.facet_category { padding: 0px 22px 0 10px;}
+
+.faceted_navigation .icn_fct_arr{background-position: right -833px}
+.faceted_navigation .facet_selection{font-size: 14px; line-height: 18px; height:auto; padding: 0px 18px 8px 9px;font-weight: bold; color:#fff; cursor: pointer; word-wrap: break-word;}
+
+/* Safari 3.0 and Chrome only */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .faceted_navigation .facet_selection{margin-right: 8px}
+}
+
+/* start facet option  */
+.faceted_navigation .facet, .faceted_navigation .more_facet {position: relative; float: left}
+.faceted_navigation .facet_options { display: none; position: absolute; width: 100%; z-index: 4}
+
+.faceted_navigation .icn_fct_cls{background-position: right -810px; height: 38px; line-height: 38px}
+.faceted_navigation .facet_options_header a:hover {text-decoration: none !important}
+
+.faceted_navigation .values {font-size:16px; line-height: 22px; color:#000; background-color:#fff; border:2px solid #5a5a5a; border-top: 0; border-collapse: separate;width: 100%;}
+.faceted_navigation .values td {border-top: 1px solid #ccc}
+.faceted_navigation table.values td ul li{border-bottom: 1px solid #ccc}
+.faceted_navigation .values tr:first-child td{border-top: 0}
+
+.faceted_navigation table.values td,
+.faceted_navigation table.values td ul{vertical-align: top;}
+
+.faceted_navigation .facet_option {padding: 0; zoom:1}
+.faceted_navigation .facet_option_first_column {border-right: 1px solid #ccc; width: 50%;}
+.faceted_navigation .facet_option_second_column {width: 50%;}
+
+.facet_clear_button{font-size: 14px; color:#fff; line-height: 18px; font-weight: bold; cursor: pointer; position:absolute; top:10px; right:45px; zoom:1}
+.facet_clear_button:hover{text-decoration: underline}
+.facet_options_header .disabled:hover{text-decoration:none}
+.facet_options_header .disabled{cursor: default}
+.faceted_navigation .more_facet h3 {font-size: inherit; line-height: 22px; color:#000; padding: 8px 9px 7px 9px;  text-align: left; font-weight: normal}
+
+.faceted_navigation .more_facet .values td {border-right: 1px solid #ccc;}
+.faceted_navigation .more_facet .values td.facet_option_last {border-right: 0;}
+.faceted_navigation .more_facet .values li{border-bottom: 1px solid #ccc}
+
+/* start facet option item */
+.faceted_navigation .facet_option{cursor: pointer; position: relative;}
+.faceted_navigation .facet_option a{display: block; padding: 8px 0px 7px 0px; color: #000}
+.faceted_navigation .facet_option a:hover {text-decoration: none !important}
+.faceted_navigation .facet_option label {display: block;word-wrap: break-word; cursor: pointer; padding-left: 33px; padding-right: 8px}
+.faceted_navigation .values .disabled a{color: #ccc}
+
+.faceted_navigation  .facet_option .checkbox{
+    background: url(../../i/common/s-21px-hpe.png) no-repeat;
+    _background-image: url(../../i/common/s-21px-ie6-hpe.gif);
+    float: left; width:25px; height: 17px; margin-top: 10px; margin-left: 8px;
+    overflow: hidden;
+}
+.faceted_navigation  .facet_option_second_column .facet_option .checkbox,
+.faceted_navigation  .facet_option_inner .facet_option .checkbox {margin-left: 9px;}
+.faceted_navigation  .facet_option_second_column .facet_option label,
+.faceted_navigation  .facet_option_inner .facet_option label{padding-left: 34px;}
+
+.faceted_navigation .facet_option:hover .checkbox{ background-position: 0 -45px}
+.faceted_navigation .selected .checkbox, .faceted_navigation .selected:hover .checkbox { background-position: 0 -90px}
+.faceted_navigation  .values .disabled .checkbox,
+.faceted_navigation  .values .disabled:hover .checkbox {background-position: left -135px}
+.faceted_navigation .facet_option input {display: none;}
+
+/* start the facet button on the far right position fix */
+.faceted_navigation .facet_last .facet_options,
+.faceted_navigation .more_facet .facet_options{right: -2px}
+
+
+.faceted_navigation .facet {margin-right: 20px}
+.faceted_navigation .facet_last {margin-right: 0}
+
+/* faceted widths*/
+.wdt_98m{max-width: 98px;_width: 98px}
+.wdt_149m{max-width: 149px;_width: 149px}
+.wdt_226m{max-width: 226px;_width: 226px}
+
+/* Styles for faceted navigation title placed to the same line with paginator*/
+.res_page .title {width:auto;line-height:22px;padding-left:2px;white-space: nowrap;}
+.res_page .title h2 {font-weight: bold; padding: 0px 15px 0 0;margin: 0;
+	color: #000;display: block; float: left; font-size: 18px;line-height: 22px;position: relative;}
+.res_page .title a:hover { text-decoration: none; }
+.res_page .title a.disabled { cursor: default; }
+
+.res_page .title .bt_clear_all {
+    background: url("../../i/common/s-21px-hpe.png") no-repeat scroll left -876px transparent;
+    width:21px; height:15px;
+    padding-left:19px;
+    color: #5a5a5a;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 14px !important;
+}
+
+.res_page .title .disabled .bt_clear_all { background-position:left -911px; cursor: default; color:#ccc;}
+
+/* Styles for tr-td structure in popups*/
+.faceted_navigation .title h2 {font-weight: bold; padding: 7px 15px 0 0;margin: 0;
+	color: #000;display: block; float: left; font-size: 18px;line-height: 22px;position: relative;}
+
+.faceted_navigation a, .faceted_navigation a:link, .faceted_navigation a:visited { color: #FFFFFF; }
+.faceted_navigation .title h1 {color: #000; float: left; position: relative; margin: 0; font-size: 32px; line-height: 30px;  padding-bottom: 8px;}
+.faceted_navigation .title a:hover { text-decoration: none; }
+.faceted_navigation .title a.disabled { cursor: default; }
+
+.faceted_navigation .facet, .faceted_navigation .more_facet { position: relative;float: left;}
+.faceted_navigation .facet { margin-right: 20px;}
+.faceted_navigation .facet_last {margin-right: 0;}
+
+.faceted_navigation .bt_clear_all,
+.faceted_navigation .close_button, .faceted_navigation .arr_blu_dwn {
+    background: url("../../i/common/s-21px-hpe.png") no-repeat scroll left -879px transparent;
+}
+.faceted_navigation .arr_blu_dwn {background-position: right -843px;padding-right: 15px;}
+
+.faceted_navigation .more_facet .facet_options {float: left;}
+.faceted_navigation .more_facet .facet_options_wrapper {
+    padding-bottom: 400px;
+    margin-bottom: -400px;
+    border-left: 1px solid #363636;
+}
+
+.faceted_navigation .more_facet .facet_options .first {border: none;}
+
+.faceted_navigation  .facet_button,
+.faceted_navigation .facet .facet_options,
+.faceted_navigation .more_facet .facets {width: 100%; }
+
+.faceted_navigation  .facet_button_content {
+    cursor: pointer; padding: 7px 10px 8px 9px;
+    color:#fff;
+    background-color: #0096D6;
+}
+
+.faceted_navigation .facet_button_content a{color: #FFFFFF;font-size: 18px;line-height: 22px;}
+.faceted_navigation .facet_button_content a:hover {text-decoration: none !important; color: white !important}
+.faceted_navigation  .facet_button_content div{
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    line-height: 18px;
+    padding-right: 18px;
+    word-wrap: break-word;
+}
+
+.faceted_navigation .facet .facet_options,
+.faceted_navigation .more_facet .facets {display: none; position: absolute; top: -5px; width: 100%;}
+
+.faceted_navigation .facet .facet_options {left: 0; background-color:#fff;}
+.faceted_navigation .more_facet .facets {border: 1px solid #363636; overflow: hidden; right: -2px;}
+
+.faceted_navigation .facet_button a {display: block;zoom: 1;}
+
+.faceted_navigation .facet_options_header,
+.faceted_navigation .more_facet .more_facet_header {background-color: #0096D6;padding: 8px 0px; width:100%}
+.faceted_navigation .facet_options_header a,
+.faceted_navigation .more_facet .more_facet_header a{color: #FFF;font-size: 18px;line-height: 22px;}
+
+.faceted_navigation .more_facet .more_facet_header {position: relative;}
+.faceted_navigation .more_facet .more_facet_header span {position: absolute;right: 30px;top: 10px;}
+.faceted_navigation .more_facet .more_facet_header span .disabled {cursor: default;}
+
+.faceted_navigation .facet .facet_options_header .close_button,
+.faceted_navigation .more_facet .more_facet_header .close_button {
+    display: block; zoom: 1;
+    background: transparent url("../../i/common/s-21px-hpe.png") no-repeat scroll right -810px;
+    padding-left: 10px;
+    padding-right: 22px;
+    margin-right: 5px;
+}
+.faceted_navigation .more_facet h3 {font-size: 100%; margin: 5px 12px; text-align: left;}
+.faceted_navigation .more_facet .facet_options .last {margin-right: -1px;}
+.faceted_navigation .more_facet .facet_option_last {border-right: 0;}
+
+.faceted_navigation .facet .facet_option {padding: 0;}
+.faceted_navigation .facet .facet_option_first_column {border-right: 1px solid #ccc; width: 50%;}
+.faceted_navigation .facet .facet_option_second_column {border-right: 0; width: 50%;}
+.faceted_navigation .facet .facet_options .values {width: 100%;
+    color: #000000;
+    font-size: 16px;
+    line-height: 22px;
+    border: 2px solid #5A5A5A;
+    border-top:none;
+}
+
+.faceted_navigation  .facet_option {cursor: pointer;}
+.faceted_navigation  .facet_option label {cursor: pointer; color: #000;}
+.faceted_navigation .values .disabled a{color: #ccc}
+
+/* couldn't use ".facet .facet_option.selected label" due to IE6 bug */
+
+.faceted_navigation  .facet_option input {display: none;}
+.faceted_navigation .btn_lgr input,
+.faceted_navigation .btn_lgr button {height: 23px; line-height: 23px;}
+
+.faceted_navigation .bt_clear_all {
+    background: url(../../i/common/s-21px-hpe.png) transparent no-repeat scroll left -876px;
+    width:21px; height:15px;
+    padding-left:19px;
+    color: #5a5a5a;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 14px !important;
+    line-height: 37px !important;
+}
+.faceted_navigation .disabled .bt_clear_all { background-position:left -911px; cursor: default; color:#ccc; }
+
+.faceted_navigation table {border-collapse: separate;}
+.faceted_navigation .bt_clear_all_little {color: #00BFF3;}
+.faceted_navigation .disabled .bt_clear_all_little {color: #b2b2b2; cursor: default;}
+
+.faceted_navigation .btn_lgr {margin-right: 5px;}
+.faceted_navigation .btn_lgr .btn_chr_c {
+    background-color: #767676;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    font-size: 85%;
+}
+.faceted_navigation .btn_lgr .disabled {color: #333;cursor: default;}
+
+/* facet_last */
+.faceted_navigation .facet_last{margin-right:0}
+.faceted_navigation .facet_last .facet_options{left: auto; right: 0;}

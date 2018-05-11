@@ -1,0 +1,73 @@
+.prog_disc_icn {padding:20px 20px 20px 18px; text-align: right}
+.prog_disc_icn{border-top:1px solid #000;}
+
+.prog-desc-toggle-all a{line-height: 18px; display: inline-block;}
+.prog-disc-item-header  a{font-weight: bold; font-size: 18px; padding: 20px}
+.prog-disc-icn, .icn_pls_drk, .icn_mns_drk { background: url(../../i/common/s-21px-hpe.png) no-repeat;  _background: url(../../i/common/s-21px-ie6-hpe.gif) no-repeat}
+.icn_pls_drk, .icn_mns_drk { width:21px; display: inline-block; cursor: pointer}
+.icn_pls_drk{background-position: left -1680px}
+.icn_mns_drk{background-position: left -1815px}
+a:hover .icn_pls_drk{background-position: left -1950px}
+a:hover .icn_mns_drk{background-position: left -2085px}
+.icn_pls_drk {padding-right: 7px;_margin-right: 7px;}
+.icn_mns_drk {margin-right: -3px}
+.disabled .icn_pls_drk {}
+.disabled .icn_mns_drk {}
+
+.prg_dsc_prd dt a, .prg_dsc_prd dt span {display: block}
+.prog-disc {border-bottom:1px  solid;}
+.prog-disc .prog-disc-item-header a{border-top:1px solid;}
+.prog-disc,
+.prog-disc .prog-disc-item-header a{border-color:#ccc}
+
+.prog-disc .js_hoverable,
+.prog-disc .hoverable:hover,
+.prog-disc .prog-disc-item-header a:hover {background-color: #f2f2f2}
+.prog-disc .prog-disc-item-header span{color:#000}
+.prog-disc .prog-disc-item-header .opened span,
+.prog-disc .prog-disc-item-header  a.opened:hover span{color:#000}
+.prog-disc .prog-disc-item-header a:hover,
+.prog-disc .prog-disc-item-header a:focus {text-decoration:none;}
+.prog-disc .prog-disc-item-header .prog-disc-item-title-more{font-size: 16px; color: #000000; font-weight: normal; margin: 7px 0;}
+
+.prog-disc .prog-disc-icn {background-position: right -1680px; line-height: 18px}
+.prog-disc .opened .prog-disc-icn {background-position: right -1815px}
+.prog-disc .content{padding: 0 20px 4px 46px;}
+.prog-disc dt.subsection a {font-weight: normal; padding: 20px 20px 20px 18px; line-height: 22px}
+.left .prog-disc .prog-disc-icn {background-position: left -1680px}
+.left .prog-disc .opened .prog-disc-icn {background-position: left -1815px;}
+.left .prog-disc a:hover .prog-disc-icn {background-position: left -1950px}
+.left .prog-disc a:hover.opened .prog-disc-icn {background-position: left -2085px}
+.left .prog-disc-item-header a{padding-left: 18px}
+.left .prog-disc-item-header span,
+.left .prog-disc-item-header .prog-disc-item-title-more{padding-left: 28px}
+.left .prog-disc dt.subsection a {padding-left: 46px}
+
+.prog-disc .prog-disc-item-content{position:relative; overflow: hidden; font-size: 1.6em;}
+.prog-disc .prog-disc-item-content .subhead{font-size: 1.6em; font-weight: normal; color:#000; margin-bottom: 6px}
+/*.prog-disc .prog-disc-item-content p{font-size: 1em; margin: 0;} bad influence to typography*/
+.prog-disc .prog-disc-item-content ul {margin-left: 0; margin-right: 0;}
+.prog-disc .prog-disc-item-content li {margin-bottom: 16px;}
+.prog-disc .prog-disc-item-content a:hover { text-decoration: underline}
+.prog-disc .prog-disc-item-content-more a.title{display: block; padding-bottom: 20px;}
+.prog-disc .prog-disc-item-content-more ul {margin-left: 20px;}
+
+.read_more_less .more .more_label,.read_more_less .less .less_label{display:block}
+.read_more_less .less .more_label,.read_more_less .more .less_label{display:none}
+.read_more_less .more .prog-disc-icn{background-position: left -2218px}
+.read_more_less .less .prog-disc-icn{background-position: left -2349px}
+.read_more_less .more_label,
+.read_more_less .less_label{padding-left: 18px; font-size: 14px; line-height: 18px; color: #767676;}
+.read_more_less a:hover .more_label,
+.read_more_less a:hover .less_label{text-decoration: underline; color: #767676;}
+
+/*progressive disclosure redesign mol-813*/
+.mol-813 {padding: 31px 0px 40px;}
+.mol-813 h3 {margin-top: 8px;}
+.mol-813 .prog_disc_icn {border: none; text-align: left; padding: 10px 20px 0 0;}
+.mol-813 .prog-disc .content{padding: 0 20px 4px 28px;}
+.mol-813 .prog-disc .prog-disc-item-content li {margin-bottom: 8px;}
+.mol-813 .left .prog-disc-item-header a{padding-top: 15px; padding-left: 0px;}
+.mol-813 .icn_pls_drk, .mol-813 .icn_mns_drk {background: none; _background: none; display: inline;}
+.mol-813 .prog-desc-toggle-all a{line-height: 18px; display: inline; font-size: 14px}
+.mol-813 .prog-disc, .mol-813 .prog-disc .prog-disc-item-header a{border: none}

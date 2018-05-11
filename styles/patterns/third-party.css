@@ -1,0 +1,55 @@
+/*TAGLINES*/
+.win_tagline {margin:0px 14px 0px; font-size: 1.4em; line-height: 18px; _line-height: 19px; font-weight: bold; color:#000}
+.win_wrapperbox{margin:0; padding:15px 0 20px 0;}
+
+/*LOGOS*/
+.logos .title_cell_rgt{margin-bottom: 15px}
+.logo_pp, .logo_bml, .logo_bbb, .logo_bob1, .logo_bob2{background:url(../../i/third-party/logos_wht.png); width:82px !important; height:56px;}
+.logo_pp{background-position: 0 -164px}
+.logo_bml{background-position: -102px -164px}
+.logo_bbb{background-position: -205px -164px}
+.logos li a{padding-left:0;margin-right: 21px}
+.logos li.lstchild a {margin-right: 0;}
+.logo_bob1{background-position: 0 -260px}
+.logo_bob2{background-position: 0 -356px}
+
+/*BADGES*/
+.badges_table {margin:20px 0}
+.badges_table td{vertical-align: middle; padding-right: 30px}
+
+
+/*NOTE: need to be rework to new hpe badges*/
+.bdg_win7, .bdg_win_vista, .bdg_mof, .bdg_amd1, .bdg_amd2, .bdg_ati, .bdg_energy, .bdg_mof_demo, .bdg_win_dvd_demo,
+.bdg_corel, .bdg_mcafree, .bdg_roxio, .bdg_win_dvd, .ces {background:url(../../i/third-party/logos_wht.png); padding-left: 0 !important}
+.bdg_win7{background-position: 0 -450px}
+.bdg_win_vista{background-position: -51px -450px}
+.bdg_mof{background-position: 0 -911px}
+.bdg_amd1{background-position: 0 -535px}
+.bdg_amd2{background-position: -50px -535px}
+.bdg_ati{background-position: 0 -611px}
+.bdg_energy{background-position: -50px -611px}
+.bdg_mof_demo{background-position: -52px -680px}
+.bdg_win_dvd_demo{background-position: 0 -680px}
+.bdg_corel{background-position: 0 -760px}
+.bdg_roxio{background-position: 0 -809px}
+.bdg_win_dvd{background-position: -52px -809px}
+.bdg_mcafree{background-position: 0 -859px}
+.ces{background-position: -128px -260px}
+a.bdg_win7, a.bdg_win_vista {height:66px; width: 45px !important;}
+a.bdg_mof, a.bdg_corel, a.bdg_mcafree {height:60px;width: 80px !important;}
+a.bdg_amd1, a.bdg_amd2 {height:58px;width: 45px !important;}
+a.bdg_ati, a.bdg_energy {height:45px;width: 45px !important;}
+a.bdg_roxio, a.bdg_win_dvd {height:45px;width: 46px !important;}
+a.bdg_win_dvd_demo {height:58px;width: 45px !important;}
+a.bdg_mof_demo {height:58px;width: 98px !important;}
+a.ces {height:54px;width: 34px !important;}
+
+/*Stack of bages*/
+.badge_stack {vertical-align: top;}
+.badge_stack a{float:right; }
+.badge_in_center a{display: block; margin: 0 auto 7px auto; float:none; _margin-left:55px}
+
+/*IE6 gifs*/
+.logo_windows7_prof, .logo_pp, .logo_bml, .logo_bbb, .logo_bob1, .logo_bob2{_background-image:url(../../i/third-party/logos_ie6.gif)}
+.bdg_win7, .bdg_win_vista, .bdg_mof, .bdg_amd1, .bdg_amd2, .bdg_ati, .bdg_energy, .bdg_mof_demo, .bdg_win_dvd_demo,
+.bdg_corel, .bdg_mcafree, .bdg_roxio, .bdg_win_dvd {_background-image:url(../../i/third-party/logos_ie6.gif)}

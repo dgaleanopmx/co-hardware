@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: HPSimplified, Arial;
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+#everything {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+
+#content {
+    width: 1000px;
+    margin:  auto;
+    display: block;
+}
+
+#body {
+    margin: 0 auto;
+    padding-bottom: 23px;
+    position: relative;
+    width: 100%;
+}
+
+
+/* faceted navigation */
+
+.temp_faceted_navigation{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+
+.faceted_nav_holder {
+    padding-top: 10px;
+}
+
+.faceted_nav_holder .facet {
+    margin-bottom: 10px;
+}
+
+.faceted_nav_holder .facet .facet_title {
+    margin-bottom: 5px;
+}
+
+.faceted_nav_holder {
+    font-size: 14px;
+    color: #000;
+}
+
+.faceted_nav_holder .facet_slider{
+    overflow: hidden;
+}
+
+.faceted_nav_holder a {
+    text-decoration: none;
+    color: #000;
+}
+
+.faceted_nav_holder .facet_options {
+    padding-left: 25px;
+    margin: 0;
+    display: block;
+}
+
+.faceted_nav_holder .facet_option {
+    list-style: none;
+    line-height: 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.faceted_nav_holder .facet_name_holder {
+    display: none;
+}
+
+.faceted_nav_holder .disabled,
+.faceted_nav_holder .disabled a{
+    cursor: default;
+}
+
+.faceted_nav_holder .facet_options .radio {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 20px;
+    height: 20px;
+    background: url(../../i/common/s-21px-hpe.png) no-repeat;
+    _background: url(../../i/common/s-21px-ie6-hpe.gif) no-repeat;
+    background-position: left -223px;
+}
+
+.faceted_nav_holder .facet_options .facet_option:hover .radio {
+    background-position: left -269px;
+}
+
+.faceted_nav_holder .facet_options .selected:hover .radio,
+.faceted_nav_holder .facet_options .selected .radio {
+    background-position: left -315px;
+}
+
+.faceted_nav_holder .facet_options .disabled:hover .radio,
+.faceted_nav_holder .facet_options .disabled .radio {
+    background-position: left -362px;
+}
+
+.faceted_nav_holder .facet_options .checkbox {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 20px;
+    height: 20px;
+    background: url(../../i/common/s-21px-hpe.png) no-repeat;
+    _background: url(../../i/common/s-21px-ie6-hpe.gif) no-repeat;
+    background-position: left 2px;
+}
+
+.faceted_nav_holder .facet_options .facet_option:hover .checkbox {
+    background-position: left -43px;
+}
+
+.faceted_nav_holder .facet_options .selected:hover .checkbox,
+.faceted_nav_holder .facet_options .selected .checkbox {
+    background-position: left -88px;
+}
+
+.faceted_nav_holder .facet_options .disabled:hover .checkbox,
+.faceted_nav_holder .facet_options .disabled .checkbox {
+    background-position: left -133px;
+}
+
+.faceted_nav_holder input {
+    display: none;
+}
+
+.faceted_nav_holder .facet_title a{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background: url(../../i/common/s-21px-hpe.png) no-repeat;
+    _background: url(../../i/common/s-21px-ie6-hpe.gif) no-repeat;
+    padding-left: 25px;
+    background-position: left -1680px;
+    line-height: 20px;
+}
+
+.faceted_nav_holder .facet_title .active{
+    background-position: left -1815px;
+}
+
+.faceted_nav_holder .facet .more,
+.faceted_nav_holder .facet .less {
+    color: #007dba;
+    font-size: 14px;
+    margin-left: 50px;
+    display: block;
+}
+
+.faceted_nav_holder .facet .more:hover label,
+.faceted_nav_holder .facet .less:hover label {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.faceted_nav_holder .facet .hidden {
+    display: none;
+}

@@ -1,0 +1,39 @@
+.breadcrumbs {
+    display: inline-block;
+    width: 1000px;
+    font-family:"HPSimplified",Arial;
+    padding-left: 18px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.breadcrumbs li {
+    display: inline;
+}
+
+.breadcrumbs li a, .breadcrumbs li a:visited {
+    display: inline-block;
+    float: left;
+    color: #767676;
+    font-size: 12px;
+}
+
+.breadcrumbs li a:hover {
+    text-decoration: none;
+}
+
+.breadcrumbs li a:hover .hvr {
+    text-decoration: underline;
+}
+
+.breadcrumbs li .carat {
+    padding: 0 5px;
+}
+
+.breadcrumbs li a:hover .carat {
+    text-decoration: none;
+}
+
+.breadcrumbs li.lstchild .carat {
+    display: none;
+}

@@ -1,0 +1,97 @@
+.videoitem{
+    display: inline-block;
+}
+
+.videoitem .video-title{
+    display: block;
+    padding: 10px 10px 10px 20px;
+    margin: 0;
+    background-color: #028ACF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 18px;
+}
+
+.videoitem .video-time{
+    margin: 0;
+    display: inline-block;
+    font-size: 1.4em;
+    line-height: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -moz-border-radius: 4px 0 0;
+    -webkit-border-radius: 4px 0 0;
+    border-radius: 4px 0 0;
+    background-color: #000000;
+    opacity: 0.6;
+    padding: 6px;
+}
+
+.videoitem .video-time span{
+    display: inline-block;
+}
+
+.videoitem .play {
+    background: url("../../i/icons/icon_lightbox.png") no-repeat scroll 0 -42px transparent;
+    height: 48px;
+    width: 48px;
+}
+
+.video_middle .video-thumbnail-16x9 .play{
+    left: 89px;
+    right: auto;
+    top: 41px;
+}
+
+.video_small .play {
+    background-position: 0 0;
+    height: 24px;
+    width: 24px;
+    left: 18px;
+    right: auto;
+    top: 9px;
+}
+
+.video_small_time .play {
+    background-position: 0 0;
+    height: 24px;
+    width: 24px;
+    left: 38px;
+    right: auto;
+    top: 16px;
+}
+
+.video_large .play {
+    background-position: 0 -114px;
+    height: 80px;
+    width: 80px;
+    left: 280px;
+    right: auto;
+    top: 140px;
+}
+
+.video_large .video-poster{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #FFFFFF;
+}
+
+.cs_spooler {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cs_spooler div {
+    background: url("../../i/header-footer/i-preloader-hf-hpe.gif") no-repeat scroll 0 0 transparent;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    width: 60px;
+}

@@ -1,0 +1,23 @@
+*html .videoitem .play { /*ie6*/
+    background-image: url("../../i/icons/icon_lightbox.gif");
+}
+
+*+html .videoitem{  /*ie7*/
+    zoom: 1;
+    display: inline;
+}
+
+*html .videoitem{  /*ie6*/
+    zoom: 1;
+    display: inline;
+}
+
+*+html .video-thumbnail{  /*ie7*/
+    min-height: 0;
+}
+
+*html .video-thumbnail{  /*ie6*/
+    zoom: 1;
+    display: inline;
+    position: relative;
+}

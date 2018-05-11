@@ -1,0 +1,22 @@
+/* MOLECULES */
+
+/*link lists*/
+* html .news_topics .links_list ul li a:visited{color:#b2b2b2}
+* html .links_list ul li a:visited {color: #b2b2b2}
+ul.inline li{*display: inline}
+.li_icn  a{*display: inline;}
+
+* html .left_col .videoitem {float: left}
+
+.js-video-embedded-collapsed .video-trigger{_float: left;}
+.video_playbtn {_width: auto}
+.b-roll .video_playbtn {position: relative;}
+
+/*paginator*/
+* html .paginator {display: inline}
+
+
+
+/* Secondary Nav */
+.secondary_nav .expand_area .level3 .menu .selected { background-position: 0% 15%;}
+.secondary_nav .expand_area .wdt_144 {_width:134px;}
