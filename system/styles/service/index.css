@@ -1,0 +1,108 @@
+body{height:100%;background-color: #fff;color:#000;font-size: 10px}
+div.body {margin: 0 auto;padding-bottom: 20px;position: relative;width:1000px}
+div.service-page {width:930px;margin: 0 auto}
+div.body {padding-bottom: 0px}
+.divider{border-top: 1px solid black; padding-top: 30px}
+.service-page h1.service-h1 {border-bottom: 1px #666 solid; padding-bottom: 5px}
+.service-page h1.service-h1, .service-page h2.service-h2, .service-page ul.service-ul {margin-bottom: 15px}
+.service-page h4.service-h4 {margin-bottom:5px}
+.service-page h2.service-h2 {
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+	background:#CCCCCC;
+	padding: 10px;
+	border: 1px solid;
+	margin-top: 40px
+}
+hr {margin: 20px 0}
+h1, h2, h3, h4, h5, h6, p {margin: 7px 0}
+h2{font-size: 2em; line-height: 30px;margin-top:0;margin-bottom: 10px}
+
+.index_column{width: 300px;float:left;padding-left: 96px;}
+.service-ul{font-size: 16px; line-height: 22px}
+
+.parts h4.service-h4 {margin-top:10px; font-weight: normal;}
+
+.separator{border-top:1px solid #000000;margin-top: 30px;padding-top: 20px;}
+
+.service-page ul.service-ul li a:hover{text-decoration: underline;}
+.service-page ul.service-ul li {margin-bottom:2px}
+.service-page ul.service-ul li ul{padding-left: 15px; margin-bottom: 10px}
+.service-page ul.service-ul h4{font-size: inherit;}
+.service-page h3 {color: black; font-size:18px}
+
+.ui-section{padding: 20px 20px; margin: 10px 0;}
+
+.pattern-header{width: auto; *height: 50px; background-color: #0196D6; padding: 20px; margin-bottom:20px;direction:ltr}
+.headers{float: left; padding: 0;}
+.headers h2{font-size: 3.6em;font-weight: bold;margin:0 0 5px 0; color: #FFFFFF; line-height: 36px;}
+.headers h4{font-size: 1.6em; font-weight: normal; margin: 0; color: #FFFFFF;}
+.headers span{font-size: 1.6em; color: #FFFFFF;}
+
+.spec{float: right; width: 400px; padding: 0px 0 10px 0;}
+.spec span{text-transform: uppercase; font-size: 1.1em; color: #FFFFFF;}
+.spec a{color: #FFFFFF; font-size: 1.3em; line-height: 14px; display: block; word-wrap:break-word;}
+.spec a:hover{color: #FFFFFF;}
+
+table.icon_lists  tr td {padding: 0px 40px 12px 0px}
+table.icon_lists .td3 {width: 100px}
+table.icon_lists .td2 {width: 450px; _font-size: 10px;}
+table.icon_lists .td1 {font-size: 12px; line-height: 15px; width:100px; }
+
+body {background: white}
+h1.service-h1, .hpe h2.service-h2 {color: black}
+
+.presentation_table {margin-bottom: 40px}
+.presentation_table th{font-size: 1.4em; color:#5a5a5a;text-align: left;padding-bottom:20px; padding-top: 10px;}
+.presentation_table th,
+.presentation_table td{padding-right:0px; vertical-align:top;}
+.content{width: auto; padding: 0 48px;}
+
+.description_block{ background: #f2f2f2; padding: 35px 48px; margin-top:-40px}
+.description_block h1{color:#777}
+
+.wth_30p {width: 30%}
+.wth_22p {width: 22%}
+.wth_1000 {width:930px}
+.cnt48{padding:0 48px 60px 48px}
+.m_top_55{margin-top:40px}
+.ul_description{font-size: 1.2em; margin-bottom: 18px}
+.ul_description li {margin-top: 1px}
+.m_top_0 {margin-top:0}
+.red_allert {color:red; font-size: 1.2em; line-height: 18px; width:200px}
+.red_alert {color:red; font-size: 1.2em; line-height: 18px;}
+.red_alert a:hover{text-decoration:underline;}
+.width_280{width:280px}
+
+div.index_page {width:1000px}
+
+small{font-size: 1.3em}
+.presentation_block {border:1px dotted #767676}
+
+.typ_head{font-size: 24px; margin-bottom: 20px;}
+
+.lft{padding-right:20px}
+.fst, .lst, .col, .lft {float:left;}
+
+.header_container{ xbackground-color: #0096D6;  height: 72px;  margin-bottom:30px}
+.header_container h1{
+    margin:0;
+    color:#fff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 17px;
+    display: inline;
+    position:relative;
+    margin-left: 36px;
+    top: 24px;
+}
+.hf_section { margin: 0 auto; width: 1060px;}
+.header_container a.logo {
+    display: block;
+    height: 60px;
+    margin: 10px 0 0px 40px;
+    width: 50px;
+    background-image: url("../../i/header-footer/s-header-v3.2-hpe.gif");
+    float:left
+}

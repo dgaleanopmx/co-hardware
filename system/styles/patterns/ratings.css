@@ -1,0 +1,203 @@
+.rating .unvoted{ display: inline-block; }
+.rating .counter {vertical-align: middle;}
+
+/**
+ * @section Ratings
+ * @subsection Master & Form Overall Rating
+ */
+.rating .form_overall .star {background: transparent url(../../i/common/i-star-e-16px-hpe.gif) no-repeat; width: 16px; height: 16px; display: inline-block; vertical-align: middle;}
+.rating .form_overall .star:hover,
+.rating .form_overall .star_hovered,
+.rating .form_overall .active {background: transparent url(../../i/common/i-star-f-16px-hpe.gif) no-repeat; width: 16px; height: 16px; display: inline-block;}
+
+.rating .form_overall .star1,
+.rating .form_overall .star2,
+.rating .form_overall .star3,
+.rating .form_overall .star4{ padding-left: 16px; cursor: pointer; }
+
+.rating .form_overall .label{ display: none; }
+
+.rating .form_overall .unvoted .star{ display: none; }
+.rating .form_overall .unvoted .counter{ margin-left: 1px }
+
+.rating .form_overall .unvoted:hover .star{ display: inline-block; }
+.rating .form_overall .unvoted .star_show{ display: inline-block; }
+.rating .form_overall .unvoted:hover .counter{ margin-left: 48px; _margin-left: 6px }
+.rating .form_overall .unvoted .counter_show{ margin-left: 48px; _margin-left: 6px }
+.rating .form_overall .unvoted .label_hide{ display: none; }
+
+.form_overall_locked {
+    background: transparent url(../../i/common/i-star-e-16px-hpe.gif); width: 80px; height: 16px; display: inline-block; vertical-align: baseline;
+}
+.form_overall_locked .star_inner {
+    background: transparent url(../../i/common/i-star-f-16px-hpe.gif); height: 16px; display: inline-block; vertical-align: baseline;
+}
+
+/**
+ * @section Ratings
+ * @subsection Review's Overall Rating
+ */
+.rating .review_overall .star {background: transparent url(../../i/common/i-star-e-14px-hpe.gif) no-repeat; width: 14px; height: 14px; display: inline-block; vertical-align: middle;}
+.rating .review_overall .star:hover,
+.rating .review_overall .active,
+.rating .review_overall .star_hovered{background: transparent url(../../i/common/i-star-f-14px-hpe.gif) no-repeat; width: 14px; height: 14px; display: inline-block;}
+
+.rating .review_overall .star1,
+.rating .review_overall .star2,
+.rating .review_overall .star3,
+.rating .review_overall .star4{ padding-left: 14px; cursor: pointer; }
+
+.rating .review_overall .counter{ display: inline-block; vertical-align: middle; margin-left: 48px; _margin-left: 6px; color: #999999; font-size: 10px; height: 14px; line-height: 14px; padding: 0 7px; }
+
+.rating .review_overall .label{ display: none; }
+
+.rating .review_overall .unvoted .star{ display: none; }
+.rating .review_overall .unvoted .counter{ margin-left: 5px; }
+
+.rating .review_overall .unvoted:hover .star{ display: inline-block; }
+.rating .review_overall .unvoted .star_show{ display: inline-block; }
+.rating .review_overall .unvoted:hover .counter{ margin-left: 48px; _margin-left: 6px; }
+.rating .review_overall .unvoted .counter_show{ margin-left: 48px; _margin-left: 6px; }
+.rating .review_overall .unvoted .label_hide{ display: none; }
+
+.review_overall_locked {
+    background: transparent url(../../i/common/i-star-e-14px-hpe.gif); width: 69px; height: 14px; display: inline-block;
+}
+.review_overall_locked .star_inner{
+    background: transparent url(../../i/common/i-star-f-14px-hpe.gif); height: 14px; display: inline-block;
+}
+
+/**
+ * @section Ratings
+ * @subsection Review's Overall Rating
+ * @affects IE6
+ */
+
+/**
+ * @section Ratings
+ * @subsection Rating Breakdown
+ */
+.rating .rating_breakdown .star {background: transparent url(../../i/common/i-star-e-12px-hpe.gif) no-repeat; width: 12px; height: 12px; display: inline-block; vertical-align: middle;}
+.rating .rating_breakdown .star:hover,
+.rating .rating_breakdown .active,
+.rating .rating_breakdown .star_hovered{background: transparent url(../../i/common/i-star-f-12px-hpe.gif) no-repeat; width: 12px; height: 12px; display: inline-block;}
+
+.rating .rating_breakdown .star1,
+.rating .rating_breakdown .star2,
+.rating .rating_breakdown .star3,
+.rating .rating_breakdown .star4{ padding-left: 12px; cursor: pointer; }
+
+.rating .rating_breakdown .label{ display: none; }
+
+.rating .rating_breakdown .unvoted .star{ display: none; }
+
+.rating .rating_breakdown .unvoted:hover .star{ display: inline-block; }
+.rating .rating_breakdown .unvoted .star_show{ display: inline-block; }
+.rating .rating_breakdown .unvoted:hover .counter{ margin-left: 36px }
+.rating .rating_breakdown .unvoted .counter_show{ margin-left: 36px }
+.rating .rating_breakdown .unvoted:hover .label{ display: none; }
+.rating .rating_breakdown .unvoted .label_hide{ display: none; }
+
+/**
+ * @section Ratings
+ * @subsection Rating Breakdown
+ * @affects IE6
+ */
+.rating_holder{display: none;}
+
+.rating_hoverable .stars_locked {
+    vertical-align: middle;
+}
+
+.rating .form_overall .counter{ display: inline-block; border:none; border-radius:0px; -moz-border-radius: 0px; color: #5a5a5a; height: 16px; line-height: 16px; font-size:14px; vertical-align: middle; padding: 0 5px}
+.rating .form_overall .rating_holder .counter{ margin-left: 48px;}
+.rating .form_overall .counter:hover{border: none; text-decoration:underline; cursor: pointer}
+.rating .form_overall .star {background: transparent url(../../i/common/i-star-e-16px-hpe.gif) no-repeat; width: 16px; height: 16px; display: inline-block; vertical-align: middle;}
+.rating .form_overall .star:hover,
+.rating .form_overall .star_hovered,
+.rating .form_overall .active {background: transparent url(../../i/common/i-star-f-16px-hpe.gif) no-repeat; width: 16px; height: 16px; display: inline-block;}
+
+.rating .form_overall .unvoted .star{ display: none; }
+.rating .form_overall .unvoted .counter{ margin-left: 1px; border-color: #dedede }
+.rating .form_overall .unvoted .label{ display: inline-block; vertical-align: middle; font-size: 12px; line-height:16px; text-align: center; color: #007DBA; width:80px; }
+
+.rating .form_overall .unvoted:hover .star{ display: inline-block; }
+.rating .form_overall .unvoted .star_show{ display: inline-block; }
+.rating .form_overall .unvoted:hover .counter{ margin-left: 48px; _margin-left: 6px; border-color: #111111 }
+.rating .form_overall .unvoted .counter_show{ margin-left: 48px; _margin-left: 6px; border-color: #111111 }
+.rating .form_overall .unvoted:hover .label{ display: none; }
+.rating .form_overall .unvoted .label_hide{ display: none; }
+
+.form_overall_locked {
+    background: transparent url(../../i/common/i-star-e-16px-hpe.gif); background-repeat: repeat-x;
+}
+.form_overall_locked .star_inner {
+    background: transparent url(../../i/common/i-star-f-16px-hpe.gif); background-repeat: repeat-x;
+}
+/**
+ * @section Ratings
+ * @subsection Master & Form Overall Rating
+ * @affects IE6
+ */
+
+
+
+.rating .review_overall .counter{
+    border: none;
+    border-radius: 0px;
+    color: #5A5A5A;
+    height: 14px;
+	font-size:1.4em;
+	padding:0 5px;
+    margin-left: 0;
+}
+
+.rating .review_overall .rating_holder .counter {margin-left:41px; _margin-left: -1px; }
+.rating .review_overall .counter:hover{border: none; text-decoration:underline; cursor: pointer}
+
+.rating .review_overall .star {background: transparent url(../../i/common/i-star-e-14px-hpe.gif) no-repeat; width: 14px; height: 14px; display: inline-block; vertical-align: middle;}
+.rating .review_overall .star:hover,
+.rating .review_overall .star_hovered,
+.rating .review_overall .active {background: transparent url(../../i/common/i-star-f-14px-hpe.gif) no-repeat; width: 14px; height: 14px; display: inline-block;}
+
+.rating .review_overall .unvoted .star{ display: none; }
+.rating .review_overall .unvoted .counter{ border-color: #dedede; margin-left:5px }
+.rating .review_overall .unvoted .label{ display: inline-block; vertical-align: middle; font-size: 12px;line-height:14px; text-align: center; color: #007dba; width: 70px; }
+
+.rating .review_overall .unvoted:hover .star{ display: inline-block; }
+.rating .review_overall .unvoted .star_show{ display: inline-block; }
+.rating .review_overall .unvoted:hover .counter{  border: none; }
+.rating .review_overall .unvoted .counter_show{  border: none; }
+.rating .review_overall .unvoted:hover .label{ display: none; }
+.rating .review_overall .unvoted .label_hide{ display: none; }
+
+.review_overall_locked {
+    background: transparent url(../../i/common/i-star-e-14px-hpe.gif); background-repeat: repeat-x;
+}
+.review_overall_locked .star_inner{
+    background: transparent url(../../i/common/i-star-f-14px-hpe.gif); background-repeat: repeat-x;
+}
+
+.rating .rating_breakdown .counter{ display: inline-block; margin-bottom: 1px; color: #5A5A5A; font-size:1.4em; padding:0 5px}
+.rating .rating_breakdown .rating_holder .counter { margin-left:36px; _margin-left:0;}
+.rating .rating_breakdown .counter:hover{border:none; text-decoration:underline; cursor: pointer}
+
+.rating .rating_breakdown .star {background: transparent url(../../i/common/i-star-e-12px-hpe.gif) no-repeat; width: 12px; height: 12px; display: inline-block; vertical-align: middle;}
+.rating .rating_breakdown .star:hover,
+.rating .rating_breakdown .star_hovered,
+.rating .rating_breakdown .active {background: transparent url(../../i/common/i-star-f-12px-hpe.gif) no-repeat; width: 12px; height: 12px; display: inline-block;}
+
+.rating .rating_breakdown .unvoted .label{ display: inline-block; vertical-align: middle; font-size: 12px; line-height:12px; color: #007dba; white-space: nowrap; }
+
+.rating .rating_breakdown .unvoted:hover .star{ display: inline-block; }
+.rating .rating_breakdown .unvoted .star_show{ display: inline-block; }
+.rating .rating_breakdown .unvoted:hover .label{ display: none; }
+.rating .rating_breakdown .unvoted .label_hide{ display: none; }
+
+
+.rating_breakdown_locked {
+    background: transparent url(../../i/common/i-star-e-12px-hpe.gif); width: 60px; height: 12px; background-repeat: repeat-x; display: inline-block;
+}
+.rating_breakdown_locked .star_inner {
+    background: transparent url(../../i/common/i-star-f-12px-hpe.gif); height: 12px; background-repeat: repeat-x; display: inline-block;
+}

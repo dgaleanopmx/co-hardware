@@ -1,0 +1,108 @@
+/**
+ * @section multiple select
+ * @subsection multiple select common styling
+ */
+.multiselect_enabled,
+.multiselect_disabled {
+    overflow-y: auto;
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 200px;
+}
+
+.multiselect_disabled {
+    overflow-y: hidden;
+}
+
+.multiselect .multiselect_item {
+   *line-height: 1px;
+}
+
+.multiselect_enabled .multiselect_text,
+.multiselect_disabled .multiselect_text{
+    line-height: 22px;
+    font-size: 1.6em;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.multiselect_enabled .disabled,
+.multiselect_disabled .disabled {
+    cursor: default;
+}
+
+
+.multiselect_text{
+    display: block;
+    outline: none;
+}
+
+.multiselect_enabled .multiselect_item .hidden,
+.multiselect_disabled .multiselect_item .hidden{
+    display: none;
+}
+
+.hidden {
+    display:none;visibility:hidden;
+}
+
+/**
+* @section multiple select
+* @subsection dark theme
+*/
+.multiselect_enabled, .multiselect_disabled {
+    background-color: #fff;
+    border: 2px #ccc solid;
+}
+
+.multiselect_enabled:hover {
+    border-color: #5a5a5a;
+}
+
+.multiselect_enabled .multiselect_text{
+    color: #5a5a5a;
+    border-bottom: 1px solid #ccc;
+}
+
+.multiselect_enabled .selected .multiselect_text,
+.multiselect_enabled .selected .multiselect_text:focus,
+.multiselect_enabled .selected .multiselect_text:hover{
+    color: #fff;
+    background-color: #007DBA;
+}
+
+.multiselect_enabled .disabled .multiselect_text,
+.multiselect_enabled .disabled .multiselect_text:focus,
+.multiselect_enabled .disabled .multiselect_text:hover{
+    color: #666;
+    border: 1px solid #343637;
+    background-color: #343637;
+}
+
+/**
+* @section multiple select
+* @subsection dark theme (disabled)
+*/
+.multiselect_disabled {
+    background-color: #e5e5e5;
+}
+
+.multiselect_disabled .multiselect_item .multiselect_text {
+    border-bottom: 1px solid #CCCCCC;
+    color: #b3b3b3;
+}
+
+/**
+ * Moved from molecules-ie.css
+ * @section multiple select
+ * @subsection multiple height fix for ie 6,7
+ */
+.multiselect_enabled {
+    *overflow-y: scroll;
+    *height: 300px;
+}
+.multiselect_disabled {
+    *overflow-y: hidden;
+    *height: 300px;
+}

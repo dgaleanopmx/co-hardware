@@ -1,0 +1,120 @@
+.text_link_list .rtf_block {
+    padding: 0 21px 20px 18px;
+}
+
+.text_link_list .text_link_list_section {
+    color: #F2F2F2;
+    font-size: 110%;
+    font-weight: normal;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    text-transform: none;
+}
+
+.text_link_list .text_link_list_section:hover {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.text_link_list .text_link_list_section_not_link:hover {
+    cursor: text;
+    text-decoration: none;
+}
+
+.text_link_list .text_link_list_expander {
+    color: #999999;
+    font-size: 95%;
+    line-height: 18px;
+}
+
+.text_link_list .links_list ul {
+    padding: 0;
+}
+
+.text_link_list .links_list .lnk_txt a {
+    color: #999999;
+    font-size: 90%;
+}
+
+.text_link_list_hoverable:hover, .text_link_list_hoverable .text_link_list_hover {
+    background-color: #3c3c40;
+}
+
+.text_link_list .text_link_list_expander {
+    height: 0;
+    overflow: hidden;
+}
+
+.text_link_list .text_link_list_text, .text_link_list .text_link_list_expander {
+    color: #999999;
+    font-size: 95%;
+    line-height: 18px;
+}
+
+.text_link_list .text_link_list_text p, .text_link_list .text_link_list_expander {
+    margin-top: 10px;
+}
+
+.text_link_list .text_link_list_sub_header {
+    color: #F2F2F2;
+    line-height: 14px;
+    text-transform: none;
+    font-size: 95%;
+    font-weight: normal;
+    margin-top: 28px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+/*RTF BLOCK*/
+.rtf_blk {color:#5a5a5a;}
+.rtf_blk h5,
+.rtf_blk p,
+.rtf_blk ul li,
+.rtf_blk .bottom_link {font-size: 1.4em; line-height: 18px;}
+.rtf_blk li {margin-bottom: 4px; zoom:1}
+.rtf_blk ul{line-height: 17px;}
+.rtf_blk p{margin-top: 0}
+
+
+
+/* TEXT BLOCK MAIN*/
+.text_block_main h5{font-size: 140%; font-weight: normal; color:#f2f2f2; text-transform: none; margin-bottom: 13px; line-height: 21px}
+.text_block_main h5 a{line-height: 14px}
+.text_block_main p {margin-bottom: 0}
+.text_block_main ul {margin-top: 5px}
+.text_block_main_icon_link{font-size: 85%; margin-top: 6px;color:#999}
+.text_block_main_icon_link a.link_icn{line-height: 16px;}
+.text_block_main_icon_link_rgt a.link_icn, .text_block_main_icon_link_rgt a.link_icn:visited {font-size: 85%; li1ne-height: 18px; co1lor:#999}
+
+.text_block_main_bottom_link{font-size: 95%;margin-top: 12px}
+.text_block_main_bottom_link a,
+.text_block_main_bottom_link a:link{color:#05b0de}
+.text_block_main_bottom_link a:visited{color:#5f76a5}
+.text_block_main_button {margin-top:14px}
+.text_block_main_big_paragraph p{font-size: 110%; line-height: 24px; color:#f2f2f2;}
+
+
+
+
+
+/* TEXT BLOCK MAIN RIGHT*/
+.text_block_main_rgt p {margin-bottom: 0}
+.text_block_main_header_rgt{font-size: 1.4em; line-height: 18px;}
+a.text_block_main_header_rgt{font-weight: bold}
+a.text_block_main_header_rgt:hover{text-decoration: underline}
+/*.text_block_main_rgt ul {margin-top: 5px}
+.text_block_main_icon_link_rgt{margin-top: 7px}
+.text_block_main_bottom_link_rgt{margin-top: 14px; font-size: 95%}
+.text_block_main_bottom_link_rgt a,
+.text_block_main_bottom_link_rgt a:link,
+.text_block_main_bottom_link_rgt a:visited{color:#B2B2B2}*/
+
+
+
+/* TITLE CELL RIGHT*/
+.title_cell_rgt{ margin-bottom: 10px}
+
+/* text_block_main_bold_head_rgt - 646 molecule*/
+.text_block_with_bold_head .text_block_main_header_rgt {font-weight: bold;line-height: 17px;margin-bottom: 0}

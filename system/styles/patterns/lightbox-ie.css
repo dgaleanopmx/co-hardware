@@ -1,0 +1,8 @@
+*+html .eb-video-popup .eb-popup-paginator {  /*ie7*/
+    margin-bottom: 20px;
+}
+
+*html .eb-video-popup .eb-popup-paginator {  /*ie6*/
+    margin-bottom: 20px;
+    margin-right: 0;
+}

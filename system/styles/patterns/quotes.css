@@ -1,0 +1,26 @@
+.quote blockquote{position: relative; padding: 0 0 20px 21px; font-size: 2em;}
+.quote .auth{color: #5a5a5a; font-size: 1.4em; padding-left: 21px;}
+.quote .author,
+.quote .phrase{display: block;}
+.quote .author{font-weight: bold;}
+
+.quote .opening_quote,
+.quote .closing_quote{color: #767676; font-size: 1.2em; line-height: 1em;}
+.quote .opening_quote{position: absolute; left:8px; _left:-10px; top:0;}
+
+.quote .vertical{width: 246px; _width: 286px; padding: 0 20px; margin: 25px 20px; border-left: 1px solid #ccc;}
+
+.quote .horizontal{margin: 40px 0 20px 0; padding: 16px 20px 40px 18px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+
+.quote .featured{padding: 0 18px 36px 20px; border-bottom: 1px #000 solid; width: 288px;}
+.quote .featured .title{font-size: 1.8em; font-weight: bold;}
+.quote .featured .author{padding-bottom: 25px; font-weight: normal;}
+.quote .featured blockquote{padding-bottom: 12px;}
+.quote .featured a{display: block; color: #007dba; font-weight: bold; text-decoration: none; }
+.quote .featured a:hover {text-decoration: underline; }
+.quote .featured a:visited{color: #822980;}
+.quote .featured a:hover span.carat{text-decoration: none;}
+
+.quote .ratings{padding: 3px 0 10px 0;}
+.quote .ratings .form_overall .locked:hover .counter,
+.quote .ratings .form_overall .locked .counter{display: none;}

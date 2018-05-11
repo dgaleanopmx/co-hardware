@@ -1,0 +1,58 @@
+/* Typography - Chinese */
+
+html{font-family: PMingLiU,Arial}
+
+/*NOTE: fontH1 - font like h1, ...*/
+h1, .fontH1, h2, .fontH2, h3, .fontH3, .fontH4, .fontH5, .fontH6{font-weight: bold}
+h1, .fontH1{font-size:32px; line-height:40px}
+h2, .fontH2{font-size:24px; line-height:30px}
+h3, .fontH3{font-size:20px; line-height:25px}
+.fontH4, .fontH5{font-size:18px; line-height:27px}
+.fontH6{font-size: 16px; line-height:24px}
+.fontH7{font-size: 14px; line-height:18px}
+
+a, p, span{font-size: inherit; line-height: inherit}
+
+.emphraized{font-weight: bold}
+.emphraized a, a.emphraized{font-size:14px; line-height:23px}
+.description{color:#5a5a5a}
+.meta, .disabled{color:#767676}
+.error{color:#FF0000}
+
+.meta a,a.meta{color:#767676}
+.meta a:visited, a.meta:visited{color:#822980}
+
+/*Right rail and secondary content*/
+.typography_right_rail,
+.typography_secondary{font-size: 14px; line-height:23px}
+.typography_right_rail h3, h3.typography_right_rail,
+.typography_right_rail .fontH3{font-size:18px; line-height:27px; color:#000}
+/*start IE6,7 fixes for inherit*/
+.typography_right_rail p,
+.typography_secondary p{*font-size: 14px; *line-height:23px}
+/*end IE6,7 fixes for inherit*/
+
+/*Main content*/
+.typography_main{font-size:16px; line-height:24px}
+.typography_main h2, h2.typography_main,
+.typography_main .fontH2{font-size:16px; line-height:24px; color:#000}
+/*start IE6,7 fixes for inherit*/
+.typography_main p, p{*font-size: 16px; *line-height:24px}
+/*end IE6,7 fixes for inherit*/
+
+/*breadcrumbs*/
+.breadcrumbs, .breadcrumbs a,
+a.breadcrumbs{font-size: 12px; line-height:16px; color: #767676}
+.breadcrumbs a:visited, a.breadcrumbs:visited{color:#822980}
+
+/*footnote*/
+.footnote{font-size: 12px; line-height:18px; color:#5a5a5a}
+.footnote a:visited, a.footnote:visited{color:#822980}
+/*start IE6,7 fixes for inherit*/
+.footnote p{*font-size: 12px; *line-height:18px}
+/*end IE6,7 fixes for inherit*/
+
+/*Bulleted List*/
+.bulleted_list{font-size: 16px; line-height: 24px;}
+.bulleted_list ul, ul.bulleted_list{margin-bottom: 28px;}
+.bulleted_list li{list-style: disc inside; margin-top: 8px;}

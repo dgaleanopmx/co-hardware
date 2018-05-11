@@ -1,0 +1,31 @@
+.pag_back, .pag_forward{ _height:26px; }
+.pag_arrows{*width:73px;}
+
+.icn_pag_back, .icn_pag_forward{_background-image: url("../../i/common/s-31px-ie6-hpe.gif")}
+
+.icn_pag_forward, .icn_pag_back  {*cursor: pointer}
+.disabled_back .icn_pag_back,
+.disabled_forward .icn_pag_forward,
+.disabled_both .icn_pag_back,
+.disabled_both .icn_pag_forward{*cursor:default}
+
+* html .pag_arrows
+{
+    behavior: expression(
+          onmouseover = function() {this.className += ' hover'},
+          onmouseout = function() {this.className = this.className.replace('hover', '')},
+          style.behavior = null
+        );
+}
+
+/* horizontal paginations*/
+.paging_horiz a{_background-image: url("../../i/common/s-31px-ie6-hpe.gif");}
+
+
+/* pagination views*/
+.paging_views .icn_pag_table, .paging_views .icn_pag_list{_background-image:  url("../../i/common/s-31px-ie6-hpe.gif") }
+.paging_views .pag_arrows{*width:87px;}
+.paging_views .icn_pag_list,
+.paging_views .icn_pag_table{*cursor: pointer}
+
+.paging_grouped .paging {_width: 237px;}

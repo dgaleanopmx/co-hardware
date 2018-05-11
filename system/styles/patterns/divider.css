@@ -1,0 +1,37 @@
+.divider_black{
+    border-color: #000000;
+
+}
+
+.divider_grey{
+    border-color: #CCCCCC;
+}
+
+.divider_bottom{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
+}
+
+.divider_right{
+    border-right-width: 1px;
+    border-right-style: solid;
+    padding-right: 40px;
+}
+
+.divider_left{
+    border-left-width: 1px;
+    border-left-style: solid;
+    padding-left: 40px;
+}
+
+.divider_top{
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.divider_right_rail{
+    padding-right: 18px
+}

@@ -1,0 +1,135 @@
+/* ie6 max-height alternative */
+*html .h100{height: 100px;}
+*html .h125{height: 125px;}
+*html .h150{height: 150px;}
+*html .h175{height: 175px;}
+*html .h200{height: 200px;}
+*html .h225{height: 225px;}
+*html .h250{height: 250px;}
+*html .h275{height: 275px;}
+*html .h300{height: 300px;}
+
+/* Common */
+*+html .dd_wrap .dd_downside,
+*+html .dd_wrap .dd_upside{left:0;}
+
+*html .dd_wrap .dd_icn{background-image: url(../../i/common/s-21px-ie6-hpe.gif);}
+*html .dd_buttonLike .dd_label .dd_icn_container,
+*html .dd_facetLike .dd_label .dd_icn_container,
+*html .dd_mixContent .dd_label .dd_icn_container,
+*html .dd_buttonLike .dd_label:hover .dd_icn_container,
+*html .dd_facetLike .dd_label:hover .dd_icn_container,
+*html .dd_mixContent .dd_label:hover .dd_icn_container{ _width: 40px; _height: 36px; }
+*html .dd_facetLike .dd_icn{background-image: url(../../i_stub/dd/arrows-hpe.gif);}
+
+*html .dd_item a:link, *html .dd_item a:visited .dd_label_text{color: #000}
+*html .dd_item a:hover, *html .dd_list .dd_fst .dd_insitem a:hover{color: #fff;}
+
+.dd_wrap a{*cursor: pointer;}
+.dd_wrap a:visited{color: #007DBA;}
+.selected a:visited{color:#000}
+.dd_item a{zoom: 1;}
+.dd_item a:visited{color: #000000;}
+.dd_item a:focus,
+.dd_item a:hover{color: #FFFFFF;}
+.dd_wrap .dd_disabled a:visited,
+.dd_wrap a.disable:visited{color:#b3b3b3}
+
+/* IE6 dropping up */
+*html .dd_sort .dd_upside .dd_list_items,
+*html .dd_formSelection .dd_upside .dd_list_items,
+*html .dd_filteringTitle .dd_upside .dd_list_items{
+    margin-top: 0px !important;
+}
+*html .dd_sort .dd_trigger_upside .dd_label,
+*html .dd_formSelection .dd_trigger_upside .dd_label,
+*html .dd_filteringTitle .dd_trigger_upside .dd_label{border-bottom: 1px #ccc solid;}
+
+/* Complex select */
+*.dd_wrap .dd_list .dd_item ul{display: inline; overflow: hidden; }
+*.dd_complex .dd_list .dd_item{ display: block; }
+*.dd_complex .dd_list .dd_insitem{ display: block; }
+
+/* Select */
+.dd_trigger_downside .dd_label:hover,
+.dd_trigger_downside .dd_label{
+    _border: 0px;
+    _border-bottom: 1px solid #5A5A5A;
+}
+
+*html .dd_sort .dd_trigger_upside .dd_label,
+*html .dd_formSelection .dd_trigger_upside .dd_label:hover,
+*html .dd_formSelection .dd_trigger_upside .dd_label{
+    _border: 2px solid #5A5A5A;
+}
+
+.dd_downside .dd_fst{ _border-top: 1px solid #5a5a5a; }
+.dd_downside .dd_list_items{ _background-color: #fff; }
+
+/* Sort */
+*html .dd_sort .dd_trigger_upside .dd_label,
+*html .dd_sort .dd_trigger_upside .dd_icn{height: 23px;}
+*html .dd_wrap .dd_lst{border-bottom: 0;}
+*html .dd_sort .dd_open .dd_error{ _border: 2px solid #5A5A5A; }
+*html .dd_sort .dd_open .dd_error .dd_list{ _margin-left: -2px; }
+
+/* Faceted */
+.dd_facetLike a:visited .dd_label_text{color: #FFFFFF;}
+.dd_facetLike .dd_label_text{*display: inline-block;}
+*html .dd_facetLike .dd_upside .dd_fst{margin-top: 0 !important; border-top: 0;}
+*html .dd_facetLike .dd_upside .list_content{border-bottom: 2px #5a5a5a solid;}
+
+/* Form */
+*html .dd_formSelection .dd_icn {height: 6px;}
+.dd_formSelection .dd_trigger_downside .dd_label .dd_label_text{
+    _height: auto; *height: auto;
+}
+.dd_formSelection .dd_icn_container {_height: 32px; _width: 40px;}
+.dd_sort .dd_icn_container {_height: 22px; _width: 32px;}
+.dd_icn_container{_overflow: hidden;}
+
+/* Link */
+.dd_buttonLike a:visited .dd_label_text{color: #FFFFFF;}
+.dd_buttonLike .dd_label_text{float: left;}
+.dd_buttonLike .dd_head{*display: block;}
+*html .dd_buttonLike .dd_item a .dd_item_icn{margin-right:5px}
+*html .dd_buttonLike .dd_upside .list_content .dd_fst{margin-top: 0px !important; border-top: 0;}
+*html .dd_buttonLike .dd_upside .list_content .dd_lst{border-bottom: 2px #5a5a5a solid;}
+
+/* Filtering */
+*html .dd_filteringTitle .dd_trigger_upside .dd_label,
+*html .dd_filteringTitle .dd_trigger_upside .dd_icn{height: 23px;}
+*html .dd_filteringTitle .dd_label_text{color: #000000;}
+.dd_filteringTitle .dd_icn{_top: 0; *top: 0;}
+
+.dd_sort .dd_trigger_downside .dd_label,
+.dd_sort .dd_trigger_downside .dd_icn,
+.dd_sort .dd_trigger_upside .dd_icn,
+.dd_filteringTitle .dd_trigger_downside .dd_label,
+.dd_filteringTitle .dd_trigger_downside .dd_icn,
+.dd_filteringTitle .dd_trigger_upside .dd_icn{_line-height: 23px;}
+
+/*mixContent*/
+.dd_mixContent a:visited .dd_label_text{color: #FFFFFF;}
+.dd_mixContent .dd_icn{*position: absolute; *right: 0; *top: 0;}
+*html .dd_mixContent .dd_upside .dd_fst{margin-top: 0 !important; border-top: 0;}
+*html .dd_mixContent .dd_upside .list_content{border-bottom: 2px #5a5a5a solid;}
+
+/* textOnly */
+.dd_textOnly .dd_icn {top: 4px;}
+.dd_textOnly .dd_label{display: inline-block;}
+*html .dd_textOnly .dd_upside .dd_fst{margin-top: 0 !important; border-top: 0;}
+*html .dd_textOnly .dd_upside .list_content{border-bottom: 2px #5a5a5a solid;}
+*html .dd_textOnly .dd_upside .dd_label{border-top: 2px #5a5a5a solid; border-bottom: 0; padding: 0 0 0 8px;}
+*html .dd_textOnly .dd_label_text{color: #000000;}
+*html .dd_textOnly .dd_head .dd_label,
+*html .dd_textOnly .dd_head .dd_label:hover{ _border: 0px; }
+
+.wnone   .dd_icn_container{_width:60px}
+.dd_filteringTitle .dd_icn, .dd_textOnly .dd_icn{*top:3px}
+.dd_mixContent .dd_list .dd_item .primary{*padding-top:0; *padding-bottom:0; *height:28px;}
+.dd_mixContent .dd_list .dd_item .primary .btn_label{*line-height: 26px;}
+
+
+.dd_buttonLike .dd_item a .dd_item_icn{float:none; position:absolute}
+.dd_buttonLike .dd_upside .list_content{bottom:-3px;}

@@ -1,0 +1,17 @@
+.everything{font-family:HPSimplified, Arial}
+.pricing {font-size:14px; line-height:16px;color:#5a5a5a}
+.pricing .prc_big{font-size:24px; line-height:26px; color:#D7410B}
+.pricing .prc_mdm{font-size:18px; line-height:20px; color:#D7410B}
+.pricing .prc_sml{font-size:16px; line-height:18px; color:#D7410B}
+.pricing .prc_tny{font-size:14px; line-height:16px; color:#D7410B}
+.pricing .prc_foot{font-size:12px; line-height:14px; color:#5A5A5A}
+.pricing .prc_emp{font-weight:bold}
+.pricing .prc_str{text-decoration:line-through}
+.pricing sup{vertical-align:super; font-size:12px}
+.pricing .prc_sml span,.pricing .prc_tny span{font-size:12px; line-height:14px;color:#5a5a5a}
+.pricing .prc_big span, .pricing .prc_mdm span{margin-left:4px}
+.pricing div, .pricing .prc_big, .pricing .prc_mdm, .pricing .prc_sml,.pricing .prc_tny, .pricing .prc_emp, .pricing .prc_str {margin-bottom:4px}
+.pricing .prc_foot{margin-bottom:1px}
+.pricing table{margin-bottom:15px}
+.pricing tr .prc_str, .pricing tr .prc_big, .pricing tr .prc_foot{padding-left:20px}
+.presentation_table .pricing td{vertical-align:bottom}

@@ -1,0 +1,26 @@
+/*NOTE: fontH1 - font like h1, ...*/
+h1, .fontH1{margin-bottom: 9px}
+h2, .fontH2{margin-bottom: 5px}
+h3, .fontH3{margin-bottom: 5px}
+.fontH4, .fontH5,.fontH6, .fontH7{margin-bottom: 5px}
+
+a.fontH1, a.fontH2, a.fontH3, a.fontH4, a.fontH5, a.fontH6, a.fontH7,
+span.fontH1, span.fontH2, span.fontH3, span.fontH4, span.fontH5, span.fontH6, span.fontH7 {display: block;}
+
+
+
+/*Right rail and secondary content*/
+.typography_right_rail h3, h3.typography_right_rail,
+.typography_right_rail .fontH3{margin-bottom: 6px}
+
+/*Main content*/
+.typography_main p, .typography_main span, p,
+.typography_main h2, h2.typography_main,.typography_main .fontH2{margin-bottom:7px}
+
+/*Right rail and secondary content*/
+.typography_right_rail p,.typography_right_rail span,.typography_right_rail a,
+.typography_secondary p,.typography_secondary span,.typography_secondary a{margin-bottom: 4px}
+
+/*breadcrumbs*/ /*footnote*/
+.breadcrumbs p, .breadcrumbs span,
+.footnote p, .footnote span {margin-bottom: 4px;}

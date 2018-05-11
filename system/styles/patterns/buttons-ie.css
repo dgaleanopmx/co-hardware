@@ -1,0 +1,5 @@
+.btns_toggle_wrap, .btn_toggle.first, .btn_toggle.last {display: inline-block}
+*html .btn_toggle span.btn_inner {padding-bottom: 2px}
+*html .btn_indicator .btn_inner {padding-bottom: 4px}
+.btn_indicator .icon {line-height: 12px; height: 13px}
+.btn_indicator .search_right .icon, .btn_indicator .search_left .icon {line-height: 11px; height: 13px}

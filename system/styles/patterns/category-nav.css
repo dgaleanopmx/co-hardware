@@ -1,0 +1,40 @@
+.cat_cnt {width:295px; overflow:hidden; white-space:nowrap;}
+.cat_nav {display: none; margin-left: 18px}
+.cat_nav_title{font-size: 1.6em; color: #000; padding: 34px 50px 15px 18px; display: block; border-top: 1px #000 solid; border-bottom: 1px #ccc solid; cursor: default; margin-bottom: 4px}
+
+.cat_nav_fst li {margin-top: 16px}
+.cat_nav_fst .cat_nav li {margin-top: 15px}
+.cat_nav_fst .lst_chld {margin-bottom: 10px}
+
+.cat_nav_item {display: block;  padding-left:18px;}
+.cat_nav_item .cat_label { font-size: 1.6em; color: #767676; }
+.cat_nav_item .cat_nmb { font-weight: normal; padding-left: 10px; font-size: 1.2em; color: #767676}
+
+.cat_nav .cat_nav_item .cat_label {font-size: 1.4em}
+
+.cat_nav_item .selected {color: #111111}
+
+.cat_nav_item.open, .cat_nav_item.close{background: url(../../i/icn_nav.gif) no-repeat 2px -37px;}
+.cat_nav_item.close{background-position: 2px 6px;}
+.cat_nav_item.open{background-position: 2px -18px;}
+
+.cat_nav_item a,
+.cat_nav_item a:visited .cat_label {color:#767676; cursor: pointer;}
+.cat_nav_item a:hover .cat_label {text-decoration: underline !important; color: #007dba}
+.cat_nav_item .selected .cat_label {font-weight:bold; cursor:default; color: #000}
+
+.cat_nmb {font-weight: normal; padding-left: 10px; font-size: 1.2em }
+
+.cat_nav_item.open a:hover .hvr,
+.cat_nav_item.close a:hover .hvr{color: #007DBA; text-decoration: underline; text-decoration: underline; cursor: pointer}
+
+span.js_cat_nav {display: none}
+
+/*IE6 accordion bug*/
+*html .cat_nav_fst .ie6_fix{height: 1px !important};
+*html .cat_cnt li {height: 19px}
+
+.cat_nav_no_content {
+    display: none;
+    font-size: 0px;
+}
