@@ -1,0 +1,12 @@
+/* printing stuff */
+
+.share_section { display: none;}
+
+#header { display: none; }
+#footer { display: none; }
+#left_rail { display: none; }
+#right_rail { display: none; }
+.secondary_nav { display: none; }
+.lay_75_25 .right { display: none; }
+.breakout_container { display: none; }
+.selectoMoo_options { display: none; }

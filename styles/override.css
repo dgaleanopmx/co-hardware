@@ -1,0 +1,29 @@
+body { color: #ffffff; }
+div.header{height:85px;}
+
+/* CONTENT AREA HEADER */
+.title_area {width:1000px;padding:0;height:345px;background:url(../images/head-top-0_1000.jpg) no-repeat top left;}
+.title_area .banner-top {height:84px;}
+.title_area h1 {padding:30px;}
+.title_area p.floatRight {padding:30px;}
+#rails_bg_container{background:none;}
+
+/* MAIN CONTENT AREA */
+#main_column { padding: 0px; width: 1000px;}
+.left_col {width:670px; float:left;overflow:hidden;}
+.right_col {width: 330px; float:right;overflow:hidden;}
+.page_sections {padding:0px 15px;margin-bottom:15px;clear:both;}
+.page_sections p {margin-bottom:10px;}
+.section_header {margin-bottom:5px;}
+.sub_left_col {width:330px; float:left;overflow:hidden;}
+.sub_right_col {width: 330px; float:right;overflow:hidden;margin-right:7px;}
+
+/* INDIVIDUAL CONTENT SECTIONS */
+#win7_HP_PC img {margin-right:15px;}
+#help_you {margin-top:73px;}
+#win7_forums {text-align:center;}
+
+.floatRight {float: right;}
+.floatLeft { float: left;}
+
+img {border:none;}

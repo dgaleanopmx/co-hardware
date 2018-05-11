@@ -1,0 +1,45 @@
+<!-- METADATA TYPE="typelib" FILE="c:\program files\common files\system\ado\msado15.dll"--> 
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+    Sub Application_OnStart
+
+'	PRODUCTION SERVER CONNECTION STRING
+		
+		Application("App_ConnectionTimeout") = 60
+		Application("App_CommandTimeout") = 60
+		Application("App_CursorLocation") = 2
+
+		'-----------------------------------------------
+		'------- GENERAL SITE VARIABLES ----------------
+		'-----------------------------------------------
+
+		
+		Application("Host")		= "h30248.www3.hp.com"	'ADMIN URL - HTTP://XXX.XXX
+	
+		Application("Path")			= "http://" & Application("Host") & "/recycle/co-hardware/"
+		
+		Application("SecPath")		= "https://" & Application("Host") & "/recycle/co-hardware/"
+			
+		Application("mailserver")		= "localhost"
+	
+		
+		Application("co_contact") 		= "reciclar@hp.com"
+	'Application("co_contact") = "hharper@pmdigital.com"
+	
+		
+
+		'------- END GENERAL SITE VARIABLES ------------
+
+	End Sub
+
+	Sub Application_OnEnd
+	
+	End Sub
+    
+
+    Sub Session_OnStart
+    'INITIALIZE VARIABLES
+		Session.Timeout = 90		'90 MINUTES
+	End Sub
+	
+</SCRIPT>

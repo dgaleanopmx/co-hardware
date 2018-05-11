@@ -1,0 +1,68 @@
+body { color: #fff; }
+
+#greet_head { position: relative; padding: 10px 0; }
+#greeting { position: absolute; top: 40px; left: 20px; width: 250px; color: #b2b2b2; }
+#greeting h3 { color: #f2f2f2; font-size: 21px; } 
+#right_rail.greet_right { padding-top: 200px; }
+#right_rail p { padding-bottom: 10px; }
+.divider { background: url(../images/divider.png) no-repeat; height: 4px;  margin: 8px 0 8px 0px; clear: both;}
+#main_column  { color: #111; }
+#main_column  p, #main_column li { color: #111; letter-spacing: normal;}
+#main_column  h4 { font-size: 18px; }
+#main_column ul.no-left-pad { margin: 0 0 0 0; padding: 0 0 0 1.15em; }
+.center { text-align: center; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.bold { font-weight: bold; }
+.divider2 { border-bottom: 1px solid #999; margin: 10px 0; width: 100%; }
+
+.title_area { background-image: url("../images/title_area_bg.jpg"); }
+
+/* Progressive Discloure (+/- functionality) */
+.progressive_disclosure {margin-bottom:5px;}
+.progressive_disclosure_inner {padding-bottom:15px;}
+.progressive_disclosure_inner p {margin:10px 0px;}
+.progressive_disclosure_trigger {cursor:pointer; display:inline;}
+.progressive_disclosure_trigger p {display:inline;}
+.progressive_disclosure_icon {width:15px; height:15px; display:inline-block; vertical-align:-2px; margin-left:10px;}
+.pd_plus {background: url(../images/pd_plus.png) no-repeat top right;}
+.pd_minus {background: url(../images/pd_minus.png) no-repeat top right;}
+
+/*#main_column input, #main_column textarea { color:#f2f2f2; background-color:#3e4041; border: solid 1px #111111; padding: 8px 10px;}*/
+#main_column input[type="text"], #main_column input[type="password"], #main_column textarea { color:#111111; background-color:#f2f2f2; border: solid 1px #b2b2b2; padding: 8px 10px;}
+
+#signin input#emailAddress, #signin input#password1 { color: #111111; background-color: #f2f2f2; border: solid 1px #111111; padding: 8px 10px;}
+#right_rail a.btn_primary { line-height: 29px; }
+
+/* STYLIZED DROPDOWN MENUS */
+#main_column .styled-select-options li { margin: 0px; color:#404040;}
+#main_column.white .styled-select a { color:#333333; }
+.styled-select {cursor: default; display: block; padding:0; margin: 0; background: url(../images/select_bkg_light.jpg) no-repeat top right; position:relative; z-index:100; }
+.styled-select a {display: block; padding: 6px 20px 7px 5px; margin: 1px 0px 0px 0px; white-space: nowrap; overflow: hidden; color:#333333; font-size:12px; text-decoration:none; background: url(../images/select_bkg_light.jpg) no-repeat top right;}
+.styled-select-options {list-style: none;background: #f1f1f1;  overflow-y: auto; padding-left:0px;  }
+.styled-select-options li {height:28px; overflow: hidden; white-space: nowrap; background: #f1f1f1; color:#404040;  font-size:12px; border-bottom:1px solid #c4c4c4;}
+li.select-box-opt {margin:0px;}
+.styled-select-options li.optgroup>span { font-size: 105%; font-style: italic; }
+.styled-select-options li>span { display: block; padding: 10px 10px 5px 10px;}
+.styled-select-options li.selected {height:28px; background: #cacaca !important; color: #111111 !important; }
+.styled-select-options li.disabled { color: gray; }
+.styled-select-options ul { margin:0; padding:0; }
+.optgroup { margin: 4px 0 0 !important; }
+.styled-select-options-group li>span {padding-left: 0px !important; width: auto;}
+.select-box-options-group li>span {padding-left: 22px !important; width: auto;}
+
+/* hide options */
+#div_ink_method, #div_laser_method, #div_ink_box_quan, #div_laser_box_quan, #ink_a1, #ink_a2, #ink_a3, #ink_a4, #las_a1, #las_a2, #las_a3, #other_a1, #div_final { ndisplay: none; }
+#btn_final { ndisplay: none; }
+
+/* OVERLAY STYLES */
+.vdo_wdg {width:625px; color:#111; }
+.vdo_wdg h4 { font-size: 16px; font-weight: bold; margin-bottom: 5px; }
+.vdo_wdg a { color: #186D94; } 
+.pop_cnt {background:none repeat scroll 0 0 #fff; display:none; left:50%; margin-top:50px; position:absolute; z-index:101;}
+.cnt20 {padding:20px;}
+.pop_drk {background:none repeat scroll 0 0 #000000; left:0; position:absolute; top:0; width:100%; z-index:100;}
+.lng_cls {background:url(../i/popup_close.gif) no-repeat scroll 0 0 #666666; height:19px; position:absolute; right:10px;top:10px; width:19px;text-decoration:none;}
+.lng_cls:hover,.lng_cls:focus{text-decoration:none;}
+.modalWindow {background-color:#FFFFFF; border:3px solid #000000; display:none; left:65px; padding:10px; position:absolute; top:90px; width:auto;z-index:150;}
+#opaqueLayer{z-index:2; background-color:#000}

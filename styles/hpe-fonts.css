@@ -1,0 +1,22 @@
+/*REGULAR*/
+@font-face{
+	font-family: 'HPSimplified';
+	src: url(http://www.hp.com/united-states/tradein/fonts/hpe-regular.eot); /* IE9 compat */	 
+	src: url(http://www.hp.com/united-states/tradein/fonts/hpe-regular.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */	
+	/* non-IE */ 
+	url('http://www.hp.com/united-states/tradein/fonts/hpe-regular.woff') format('woff'), /*IE9 and some modern browsers*/ 
+	url('http://www.hp.com/united-states/tradein/fonts/hpe-regular.ttf') format('truetype'); /*iOS, Android, Safari*/
+	font-weight: normal;
+	font-style: normal;
+}
+/*BOLD*/
+@font-face{
+	font-family: 'HPSimplifiedBold';
+	src: url(http://www.hp.com/united-states/tradein/fonts/hpe-bold.eot); /* IE9 compat */	 
+	src: url(http://www.hp.com/united-states/tradein/fonts/hpe-bold.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */	
+	/* non-IE */ 
+	url('http://www.hp.com/united-states/tradein/fonts/hpe-bold.woff') format('woff'), /*IE9 and some modern browsers*/ 
+	url('http://www.hp.com/united-states/tradein/fonts/hpe-bold.ttf') format('truetype'); /*iOS, Android, Safari*/
+	font-weight: bold;
+	font-style: normal;
+}  
